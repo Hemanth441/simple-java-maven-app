@@ -35,11 +35,11 @@
     </plugins>
   </build>
   <distributionManagement>
-   <repository>
+   <snapshotRepository>
       <id>nexus-site</id>
      <name>Internal snapshot release</name>
         <url>http://3.6.86.72:8081/repository/SAMPLE-SNAP/</url>
-   </repository>
+   </snapshotRepository>
    <repository>
       <id>nexus-site</id>
       <name>Internal release</name>
